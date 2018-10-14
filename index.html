@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js and jq</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="#" onclick="openMenu()"><i class="fas fa-bars"></i></a>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="sideNav" id="sideMenu">
+        <a href="#" id="closeBtn" onclick="closeMenu()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Skills</a>
+    <a href="#">Contact</a>
+    </div>
+    <div class="showcase">
+        <div class="showcaseText" id="showSlides">
+            <h1>Lorem ipsum dolor sit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam repellat asperiores illum non! Quibusdam totam nostrum ad repellat quidem nemo eveniet eos cum ipsum! Placeat ad fuga dolor assumenda quam eaque magnam quia est, debitis officiis, adipisci harum excepturi delectus quas nostrum blanditiis laboriosam modi minus dolorem.</p>
+            <!-- <p id="hideSL" class="slideLeft"></p>
+            <p id="hideSR" class="slideRight"></p> -->
+            </div>
+    </div>
+    <div class="newsletter">
+            <form id="myForm">
+                <h2>Subscribe Here...</h2>
+                <input type="text" id="name" placeholder="Enter your name...">
+                <input type="email" id="email" placeholder="Enter your email..."><br>
+                <button>Subscribe</button>
+            </form>
+    </div>
+    <div class="about-sec">
+        <div class="abt-head">
+            <h1>About</h1>
+            <hr>
+        </div>
+        <div class="abt-txt">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur facere exercitationem aperiam magnam error enim doloribus ea sequi, nemo fuga quisquam blanditiis, molestiae minus laborum eaque impedit eveniet et iusto amet quod iste hic pariatur. Consequuntur dolore sequi, beatae asperiores ex velit. Odit illum nisi beatae facilis sapiente. Maxime nesciunt debitis minus ex accusamus repellat suscipit. Quaerat recusandae temporibus omnis officia excepturi consectetur eaque? Repellendus praesentium tempore perspiciatis minus aspernatur aperiam ipsa maiores maxime nihil reprehenderit aliquid, officia quaerat numquam at laboriosam ad nam quia dolor delectus facilis placeat officiis sunt a beatae. Minus quia deleniti omnis voluptatum suscipit quam nostrum. Accusantium molestias nulla aspernatur reprehenderit nam repudiandae deserunt quidem culpa repellat pariatur dolorem minima aperiam at accusamus voluptatibus maiores sint, harum magnam distinctio odit id? Deserunt.</p>
+        </div>
+    </div>
+
+    <div class="skills-sec">
+        <div class="skills-head">
+            <h1>Skills</h1>
+            <hr>
+        </div>
+        <div class="charts">
+            <div class="chartBox">
+                <h1>Html</h1>
+                <div class="chart" data-percent="73" data-scale-color="#f1f1f1f1"></div>
+            </div>
+            <div class="chartBox">
+                <h1>Css</h1>
+                <div class="chart" data-percent="73" data-scale-color="#f1f1f1f1"></div>
+            </div>
+            <div class="chartBox">
+                <h1>JavaScript</h1>
+                <div class="chart" data-percent="73" data-scale-color="#f1f1f1f1"></div>
+            </div>
+            <div class="chartBox">
+                <h1>jQuery</h1>
+                <div class="chart" data-percent="73" data-scale-color="#f1f1f1f1"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-sec">
+        <div class="stats-sec-text">
+            <h1>Stats</h1>
+            <hr>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <p>hours of Works</p>
+                <p><i class="fas fa-clock"></i></p>
+                <span class="counter" style="display: inline-block; width: 32%">1403</span>
+            </div>
+            <div class="box">
+                <p>Project completed</p>
+                <p><i class="fas fa-laptop-code"></i></p>
+                <span class="counter" style="display: inline-block; width: 32%">14</span>
+            </div>
+            <div class="box">
+                <p>Coffee Ordered</p>
+                <p><i class="fas fa-coffee"></i></p>
+                <span class="counter" style="display: inline-block; width: 32%">314</span>
+            </div>
+            <div class="box">
+                <p>Years of Experience</p>
+                <p><i class="far fa-calendar-alt"></i></p>
+                <span class="counter" style="display: inline-block; width: 32%">2</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contact-sec">
+        <div class="contact-sec-text">
+            <h1>Contact</h1>
+            <hr>
+        </div>
+        <div class="contact-main">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github-square"></i></a>
+        </div>
+        <div class="contact-secondary">
+            <a href="#"><i class="fas fa-at"></i> <span>slmnprkr1403@gmail.com</span></a>
+            <a href="#"><i class="fas fa-phone-square"></i> <span>+917021027249</span></a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Lorem, ipsum | Lorem 2018</p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="jquery.easypiechart.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+</body>
+</html>
