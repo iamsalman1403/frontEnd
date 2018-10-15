@@ -338,10 +338,15 @@ footer{
     color: #333;
 }
 	.contact-secondary i{
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     color: #000000;
     margin: 16px;
+}
+	.contact-secondary a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
 }
 
 }
